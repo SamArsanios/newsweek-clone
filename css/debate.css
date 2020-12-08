@@ -1,0 +1,31 @@
+.avatar {
+  border: 3px solid red;
+}
+
+.img-left {
+  float: left;
+}
+
+.img-right {
+  float: right;
+}
+
+.author {
+  text-transform: uppercase;
+  color: #aaa;
+  border: 2px solid yellowgreen;
+}
+
+.author span {
+  text-decoration: none;
+}
+
+.author a {
+  display: inline;
+  color: #aaa;
+  padding: 0;
+}
+
+.should {
+  border: 2px solid blue;
+}
