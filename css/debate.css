@@ -1,5 +1,27 @@
-.avatar {
-  border: 3px solid red;
+.debate {
+  position: relative;
+}
+
+.avatar-info {
+  margin-top: 0;
+}
+
+.avatar-info p {
+  margin-bottom: 0.5em;
+}
+
+.avatar-top {
+  border-top: 5px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 1.5em;
+  margin-bottom: 0;
+}
+
+.avatar-bottom {
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 5px solid #d9d9d9;
+  padding-top: 1.5em;
+  margin-top: 0.1em;
 }
 
 .img-left {
@@ -12,8 +34,9 @@
 
 .author {
   text-transform: uppercase;
-  color: #aaa;
-  border: 2px solid yellowgreen;
+  color: #555;
+  font-size: 1rem;
+  padding-top: 0;
 }
 
 .author span {
@@ -22,10 +45,34 @@
 
 .author a {
   display: inline;
-  color: #aaa;
+  color: #555;
   padding: 0;
 }
 
-.should {
-  border: 2px solid blue;
+/* VS */
+
+.vs {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  display: inline;
+  border-radius: 100%;
+  padding: 0.5em;
+  position: absolute;
+  left: 44%;
+  top: 52%;
+}
+
+/* AVATAR OPINION */
+
+.avatar-opinion {
+  padding: 0.2em 0 0.8em;
+  margin: 0;
+}
+
+.avatar-opinion:not(:last-child) {
+  border-bottom: 1px solid #d9d9d9;
 }
