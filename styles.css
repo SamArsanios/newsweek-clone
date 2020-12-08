@@ -1,0 +1,36 @@
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.story {
+  background-color: red;
+}
+
+.my-turn-section {
+  background-color: tomato;
+}
+
+.more-stories {
+  background-color: rgb(90, 21, 21);
+}
+
+.featured {
+  background-color: blue;
+}
+
+.featured-continued {
+  background-color: blueviolet;
+}
+
+.debate {
+  background-color: cyan;
+}
+
+.opinion {
+  background-color: darkgreen;
+}
+
+.sponsored-news {
+  background-color: greenyellow;
+}
