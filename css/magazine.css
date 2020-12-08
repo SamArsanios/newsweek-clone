@@ -1,0 +1,17 @@
+.first-mag button {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.mid-mag span {
+  right: 0;
+  background-color: #fff;
+  padding-left: 0;
+}
+
+.mid-mag sp1 {
+  background-color: red;
+  color: #fff;
+  margin-right: 0.5em;
+  padding: 0.2em 0.5em;
+}
