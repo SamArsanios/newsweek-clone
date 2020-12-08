@@ -1,8 +1,6 @@
-img {
-  height: 100px;
-  width: 100px;
+body {
+  /* font-family: "Roboto Consensed"; */
 }
-
 .story {
   background-color: red;
 }
@@ -12,11 +10,11 @@ img {
 }
 
 .more-stories {
-  background-color: rgb(90, 21, 21);
+  background-color: rgb(182, 121, 121);
 }
 
 .featured {
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .featured-continued {

@@ -1,0 +1,16 @@
+.my-turn {
+    border: 5px solid green;
+}
+
+
+.my-turn-item img {
+    width: 100%;
+}
+
+.my-turn-item p {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #aaa;
+}
+
