@@ -12,7 +12,6 @@ body * + * {
   margin-top: 1.5em;
 }
 
-
 body {
   /* font-family: "Roboto Consensed"; */
   background-color: #f4f5f6;
@@ -21,7 +20,6 @@ body {
 /* NEWSWEEK CONTAINER */
 .newsweek {
   background-color: #fff;
-
 }
 
 /* MAIN CONTAINER */
@@ -67,7 +65,6 @@ body {
   margin-top: 0;
 }
 
-
 .subscription > * + * {
   margin-top: 0;
 }
@@ -75,9 +72,6 @@ body {
 .newsletter-box > * + * {
   margin-top: 0;
 }
-
-
-
 
 .story {
   /* background-color: red; */

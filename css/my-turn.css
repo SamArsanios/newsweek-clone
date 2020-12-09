@@ -1,19 +1,18 @@
 .my-turn {
-    /* border: 5px solid green; */
+  /* border: 5px solid green; */
 }
 
 .my-turn > * + * {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .my-turn-item img {
-    width: 100%;
+  width: 100%;
 }
 
 .my-turn-item p {
-    font-size: 1.1rem;
-    font-weight: 700;
-    line-height: 1;
-    color: #aaa;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #aaa;
 }
-
