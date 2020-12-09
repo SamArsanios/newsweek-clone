@@ -13,14 +13,15 @@ Additional description about the project and its features.
 
 - HTML5
 - CSS3
+- Bootstrap
 
 ## Live Demo
 
-[Live Demo Link](https://udberg.github.io/the-next-web-clone/)
+[Live Demo Link](https://samarsanios.github.io/newsweek-clone/)
 
 ## To get a local copy up and running follow these simple example steps.
 
-git clone https://github.com/udberg/the-next-web-clone
+git clone https://github.com/SamArsanios/newsweek-clone
 
 cd the-next-web-clone
 
@@ -44,9 +45,11 @@ Install and run a live server plugin on your Text editor.
 
 ## Authors
 
-👤 UdBerg
+👤 Amit
 
-- GitHub: [@SamArsanios](https://github.com/SamArsanios)
+- GitHub: [@KumarAmitt](https://github.com/KumarAmitt)
+- Twitter: [@twitterhandle](https://twitter.com/ArrshAmitt)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kumar-amitt)
 
 👤 Sam
 
@@ -56,7 +59,7 @@ Install and run a live server plugin on your Text editor.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/udberg/the-next-web-clone/issues).
+Feel free to check the [issues page](https://github.com/SamArsanios/newsweek-clone/issues).
 
 ## Show your support
 
