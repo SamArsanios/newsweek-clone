@@ -1,16 +1,61 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body * + * {
+  margin-top: 1.5em;
+}
+
+
 body {
   /* font-family: "Roboto Consensed"; */
 }
+
+/* MAIN CONTAINER */
+
+.main-container > * + * {
+  margin-top: 0;
+}
+
+.main-container {
+  border: 4px solid red;
+}
+
+
+/* h3 */
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(136, 136, 136);
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.title + * {
+  margin-top: 0.5em;
+}
+
+
+
+
 .story {
-  background-color: red;
+  /* background-color: red; */
 }
 
 .my-turn-section {
-  background-color: tomato;
+  /* background-color: tomato; */
 }
 
 .more-stories {
-  background-color: rgb(182, 121, 121);
+  /* background-color: rgb(182, 121, 121); */
 }
 
 .featured {
@@ -18,7 +63,7 @@ body {
 }
 
 .featured-continued {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
 }
 
 .debate {
@@ -26,9 +71,9 @@ body {
 }
 
 .opinion {
-  background-color: darkgreen;
+  /* background-color: darkgreen; */
 }
 
 .sponsored-news {
-  background-color: greenyellow;
+  /* background-color: greenyellow; */
 }
