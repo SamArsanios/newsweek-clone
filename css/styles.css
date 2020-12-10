@@ -1,0 +1,75 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body * + * {
+  margin-top: 1.5em;
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+/* MASTER CONTAINER */
+
+.container {
+  max-width: 98%;
+  margin: 0 auto;
+}
+
+/* NEWSWEEK CONTAINER */
+.newsweek {
+  background-color: #fff;
+}
+
+.newsweek-logo {
+  width: 100%;
+  padding-top: 30px;
+}
+
+/* MAIN CONTAINER */
+
+.main-container > * + *,
+.large-screen > * + *,
+.editor-row > * + *,
+.usa-container > * + *,
+.subscription > * + *,
+.newsletter-box > * + *,
+.sign-up > * + * {
+  margin-top: 0;
+}
+
+.smscreen {
+  display: none;
+}
+
+/* h3 */
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(136, 136, 136);
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.title + * {
+  margin-top: 0.5em;
+}
+
+.more-stories {
+  position: sticky;
+  top: 0;
+}
+
+.sponsored-news {
+  position: sticky;
+  top: 0;
+}
