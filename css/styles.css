@@ -40,6 +40,10 @@ body {
   margin-top: 0;
 }
 
+.smscreen {
+  display: none;
+}
+
 /* h3 */
 
 .title {
