@@ -39,6 +39,11 @@
   text-decoration: none;
 }
 
+.large-right .user-logo {
+  font-size: 2em;
+  color: #aaa;
+}
+
 /* SUBSCRIBE */
 
 .large-right .subscribe {
