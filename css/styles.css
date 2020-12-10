@@ -13,7 +13,6 @@ body * + * {
 }
 
 body {
-  /* font-family: "Roboto Consensed"; */
   background-color: #f4f5f6;
 }
 
@@ -23,7 +22,6 @@ body {
   max-width: 97%;
   margin: 0 auto;
 }
-
 
 /* NEWSWEEK CONTAINER */
 .newsweek {
@@ -42,34 +40,6 @@ body {
   margin-top: 0;
 }
 
-/* .large-screen > * + * {
-  margin-top: 0;
-} */
-
-/* .editor-row > * + * {
-  margin-top: 0;
-}
-
-/* USA SECTION */
-
-
-/*.usa-container > * + * {
-  margin-top: 0;
-}
-
-.subscription > * + * {
-  margin-top: 0;
-}
-
-.newsletter-box > * + * {
-  margin-top: 0;
-}
-
-.sign-up > * + * {
-  margin-top: 0;
-} */
-
-
 /* h3 */
 
 .title {
@@ -85,7 +55,6 @@ body {
   margin-top: 0.5em;
 }
 
-
 .more-stories {
   position: sticky;
   top: 0;
@@ -94,37 +63,4 @@ body {
 .sponsored-news {
   position: sticky;
   top: 0;
-}
-
-
-.story {
-  /* background-color: red; */
-}
-
-.my-turn-section {
-  /* background-color: tomato; */
-}
-
-.more-stories {
-  /* background-color: rgb(182, 121, 121); */
-}
-
-.featured {
-  /* background-color: blue; */
-}
-
-.featured-continued {
-  /* background-color: blueviolet; */
-}
-
-.debate {
-  /* background-color: cyan; */
-}
-
-.opinion {
-  /* background-color: darkgreen; */
-}
-
-.sponsored-news {
-  /* background-color: greenyellow; */
 }

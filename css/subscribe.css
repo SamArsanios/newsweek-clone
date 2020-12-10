@@ -9,6 +9,7 @@
 
 .subs-img-cont {
   position: relative;
+
   /* border: 4px solid green; */
 }
 
@@ -16,6 +17,7 @@
   padding: 4em 0 4em 1em;
 
   /* border: 5px solid red; */
+
   /* background-color: #f4f5f6; */
 }
 
@@ -58,6 +60,7 @@
 
 .newsletter-text {
   border: 1px solid #aaa;
+
   /* border-left: none; */
 }
 
@@ -82,13 +85,15 @@
   background-color: #f4f5f6;
 }
 
-.subscribe, .newsletter{
+.subscribe,
+.newsletter {
   /* border: 2px solid blue; */
+
   /* background-color: yellow; */
   padding: 0;
 }
 
-.subscribe > p, 
+.subscribe > p,
 .newsletter > p {
   /* border: 2px solid green; */
   background-color: #fff;
@@ -97,11 +102,13 @@
 .sign-up {
   /* border: 2px solid green; */
 }
+
 .sign-up input {
   /* border: 2px solid blue; */
 }
 
-.sign-up button{
+.sign-up button {
   /* border: 2px solid blue; */
+
   /* margin-top: 0; */
 }

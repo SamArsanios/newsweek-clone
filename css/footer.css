@@ -38,12 +38,12 @@ footer {
   margin-left: auto;
 }
 
-.footer-icons i:hover {
-  color: cornflowerblue;
-}
-
 .footer-icons i {
   margin-top: 0;
+}
+
+.footer-icons i:hover {
+  color: cornflowerblue;
 }
 
 /* FOOTER BOTTOM */
