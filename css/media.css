@@ -1,5 +1,6 @@
 @media (max-width: 992px) {
     
+
     
 }
 
@@ -9,5 +10,49 @@
 
 
 @media (max-width: 768px) {
+    
+    .footer-top {
+       flex-direction: column;
+    }
+
+    .footer-top p {
+        align-self: flex-start;
+        margin: 0;
+    }
+
+    .copyright {
+        margin-top: 0;
+    }
+
+    .footer-icons {
+        margin-left: 0;
+    }
+
+    /* IMAGE */
+
+    .subs-img-cont {
+        border: 5px solid green;
+        height: 500px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    
+    .sign-up {
+        display: flex;
+        padding-right: 0;
+    }
+
+    .sign-up .input-email {
+       
+        display: block;
+    }
+
+    .sign-up button {
+        
+        font-size: 1rem;
+        margin-top: 1em;
+    }
     
 }

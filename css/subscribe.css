@@ -9,7 +9,7 @@
 
 .subs-img-cont {
   position: relative;
-  border: 4px solid green;
+  /* border: 4px solid green; */
 }
 
 .subs-box {
@@ -58,7 +58,7 @@
 
 .newsletter-text {
   border: 1px solid #aaa;
-  border-left: none;
+  /* border-left: none; */
 }
 
 .input-email {

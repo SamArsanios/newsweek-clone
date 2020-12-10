@@ -32,9 +32,43 @@ body {
 
 /* MAIN CONTAINER */
 
-.main-container > * + * {
+.main-container > * + *,
+.large-screen > * + *,
+.editor-row > * + *,
+.usa-container > * + *,
+.subscription > * + *,
+.newsletter-box > * + *,
+.sign-up > * + * {
   margin-top: 0;
 }
+
+/* .large-screen > * + * {
+  margin-top: 0;
+} */
+
+/* .editor-row > * + * {
+  margin-top: 0;
+}
+
+/* USA SECTION */
+
+
+/*.usa-container > * + * {
+  margin-top: 0;
+}
+
+.subscription > * + * {
+  margin-top: 0;
+}
+
+.newsletter-box > * + * {
+  margin-top: 0;
+}
+
+.sign-up > * + * {
+  margin-top: 0;
+} */
+
 
 /* h3 */
 
@@ -51,39 +85,17 @@ body {
   margin-top: 0.5em;
 }
 
-/* HEADER */
 
-.large-screen > * + * {
-  margin-top: 0;
+.more-stories {
+  position: sticky;
+  top: 0;
 }
 
-/* EDITOR SECTION */
-
-.editor-row > * + * {
-  margin-top: 0;
+.sponsored-news {
+  position: sticky;
+  top: 0;
 }
 
-/* USA SECTION */
-
-.usa-container {
-  /* border: 2px solid green; */
-}
-
-.usa-container > * + * {
-  margin-top: 0;
-}
-
-.subscription > * + * {
-  margin-top: 0;
-}
-
-.newsletter-box > * + * {
-  margin-top: 0;
-}
-
-.sign-up > * + * {
-  margin-top: 0;
-}
 
 .story {
   /* background-color: red; */

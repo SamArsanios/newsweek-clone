@@ -9,6 +9,7 @@ footer {
 
 .footer-top {
   border-bottom: 1px solid #aaa;
+  display: flex;
 }
 
 .newsweek-footer {
@@ -16,24 +17,25 @@ footer {
   font-size: 3rem;
   font-weight: 700;
   font-family: serif;
-  line-height: 1;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 
-  /* border: 2px solid red; */
-  /* padding-bottom: 0; */
+.newsweek-footer > * + * {
+  margin-top: 0;
 }
 
 .copyright {
   text-transform: uppercase;
-
-  border: 2px solid red;
+  margin-left: 1em;
   padding: 0;
+  align-self: flex-end;
 }
 
 .footer-icons {
   font-size: 1.4rem;
   padding-top: 0;
-
-  border: 2px solid red;
+  margin-left: auto;
 }
 
 .footer-icons i:hover {
