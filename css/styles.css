@@ -17,6 +17,14 @@ body {
   background-color: #f4f5f6;
 }
 
+/* MASTER CONTAINER */
+
+.container {
+  max-width: 97%;
+  margin: 0 auto;
+}
+
+
 /* NEWSWEEK CONTAINER */
 .newsweek {
   background-color: #fff;
@@ -70,6 +78,10 @@ body {
 }
 
 .newsletter-box > * + * {
+  margin-top: 0;
+}
+
+.sign-up > * + * {
   margin-top: 0;
 }
 

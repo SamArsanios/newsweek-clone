@@ -16,26 +16,32 @@ footer {
   font-size: 3rem;
   font-weight: 700;
   font-family: serif;
+  line-height: 1;
 
   /* border: 2px solid red; */
-  padding-bottom: 0;
+  /* padding-bottom: 0; */
 }
 
 .copyright {
   text-transform: uppercase;
 
-  /* border: 2px solid red; */
+  border: 2px solid red;
   padding: 0;
 }
 
 .footer-icons {
   font-size: 1.4rem;
+  padding-top: 0;
 
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 .footer-icons i:hover {
   color: cornflowerblue;
+}
+
+.footer-icons i {
+  margin-top: 0;
 }
 
 /* FOOTER BOTTOM */
