@@ -28,6 +28,11 @@ body {
   background-color: #fff;
 }
 
+.newsweek-logo {
+  width: 100%;
+  padding-top: 30px;
+}
+
 /* MAIN CONTAINER */
 
 .main-container > * + *,
