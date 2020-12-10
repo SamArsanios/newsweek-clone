@@ -10,24 +10,22 @@
 }
 
 @media (max-width: 768px) {
+  .mlscreen {
+    display: none;
+  }
 
-    .mlscreen {
-        display: none;
-    }
-    .smscreen {
-        display: block;
-        margin-top: 40px;
-    }
+  .smscreen {
+    display: block;
+    margin-top: 40px;
+  }
 
-    .more-stories {
-        position: static;
-        
-      }
-      
-      .sponsored-news {
-        position: static;
-    
-      }
+  .more-stories {
+    position: static;
+  }
+
+  .sponsored-news {
+    position: static;
+  }
 
   .footer-top {
     flex-direction: column;
