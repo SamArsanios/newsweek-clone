@@ -55,6 +55,7 @@ Install and run a live server plugin on your Text editor.
 👤 Sam
 
 - GitHub: [@SamArsanios](https://github.com/SamArsanios)
+- LinkedIn: [Samson](https://www.linkedin.com/in/samson-kibrom/)
 
 ## 🤝 Contributing
 
